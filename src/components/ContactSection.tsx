@@ -3,7 +3,7 @@ import { Github, Linkedin, Mail } from "lucide-react";
 const links = [
   { icon: Github, label: "GitHub", href: "https://github.com/Bzats" },
   { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/miguel-lemos-ramos-04a915265/" },
-  { icon: Mail, label: "Email", href: "miguellemosramos11@gmail.com" },
+  { icon: Mail, label: "Email", href: "mailto:miguellemosramos11@gmail.com" },
 ];
 
 const ContactSection = () => {
