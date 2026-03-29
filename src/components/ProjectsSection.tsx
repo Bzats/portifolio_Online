@@ -8,14 +8,14 @@ const ProjectsSection = () => {
       <p className="text-2xl md:text-3xl font-semibold text-foreground mb-12">
         O que eu construí<span className="text-primary">.</span>
       </p>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="flex flex-wrap justify-center gap-6">
         {projects.map((project) => (
           <a
             key={project.id}
             href={project.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="group block bg-card border border-border rounded-lg p-6 hover:border-primary/40 transition-all duration-300 hover:-translate-y-1"
+            className="group block w-full md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] bg-card border border-border rounded-lg p-6 hover:border-primary/40 transition-all duration-300 hover:-translate-y-1"
           >
             <div className="flex items-start justify-between mb-3">
               <span className="font-mono text-xs text-muted-foreground">{project.year}</span>
