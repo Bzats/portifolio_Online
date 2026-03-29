@@ -8,7 +8,7 @@ const HeroSection = () => {
           Desenvolvedor Full-stack
         </p>
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground leading-tight mb-6 animate-fade-in" style={{ animationDelay: "0.1s", opacity: 0 }}>
-          Seu Nome<span className="text-primary">.</span>
+          Miguel Ramos<span className="text-primary">.</span>
         </h1>
         <p className="text-lg md:text-xl text-muted-foreground max-w-xl leading-relaxed animate-fade-in" style={{ animationDelay: "0.2s", opacity: 0 }}>
           Construo experiências digitais robustas e escaláveis, do front-end ao back-end.

@@ -15,7 +15,7 @@ const Index = () => {
       <ProjectsSection />
       <ContactSection />
       <footer className="py-8 px-6 text-center text-muted-foreground text-sm font-mono border-t border-border">
-        © {new Date().getFullYear()} Seu Nome. Todos os direitos reservados.
+        © {new Date().getFullYear()} Miguel Ramos. Todos os direitos reservados.
       </footer>
     </div>
   );
