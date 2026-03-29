@@ -15,7 +15,7 @@ const ProjectsSection = () => {
             href={project.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="group block bg-card border border-border rounded-lg p-6 hover:border-primary/40 transition-all duration-300 hover:-translate-y-1"
+            className="group block w-full md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] bg-card border border-border rounded-lg p-6 hover:border-primary/40 transition-all duration-300 hover:-translate-y-1"
           >
             <div className="flex items-start justify-between mb-3">
               <span className="font-mono text-xs text-muted-foreground">{project.year}</span>
