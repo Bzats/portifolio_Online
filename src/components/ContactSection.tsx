@@ -17,18 +17,22 @@ const ContactSection = () => {
         Estou sempre aberto a novos projetos e oportunidades. Entre em contato por qualquer um dos canais abaixo.
       </p>
       <div className="flex gap-6">
-        {links.map(({ icon: Icon, label, href }) => (
-          <a
-            key={label}
-            href={href}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors font-mono text-sm"
-          >
-            <Icon size={20} />
-            {label}
-          </a>
-        ))}
+        {links.map(({ icon: Icon, label, href }) => {
+          const isExternalLink = href.startsWith("http");
+
+          return (
+            <a
+              key={label}
+              href={href}
+              target={isExternalLink ? "_blank" : undefined}
+              rel={isExternalLink ? "noopener noreferrer" : undefined}
+              className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors font-mono text-sm"
+            >
+              <Icon size={20} />
+              {label}
+            </a>
+          );
+        })}
       </div>
     </section>
   );
