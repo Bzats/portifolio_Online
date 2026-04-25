@@ -21,7 +21,7 @@ export const projects: Project[] = [
   {
     id: 2,
     title: "Projeto Krusty Burger",
-    description: "Projeto de uma hambúrgueria fíctica, participação no design e no criativo do projeto.",
+    description: "Projeto de uma hambúrgueria fícticia, participação no design e no criativo do projeto.",
     tags: ["Node.js", "Handlebars", "PostgreSQL", "Tailwind CSS"],
     link: "https://github.com/Kendi9866/Krusty-Burger-2sem.git",
     year: "2024",
