@@ -12,9 +12,9 @@ export const projects: Project[] = [
   {
     id: 1,
     title: "Site para Projeto de Libras",
-    description: "Esta foi a minha contribuição no primeiro projeto desenvolvido na faculdade!Minha parte foi a criação da página de cursos.",
+    description: "Esta foi a minha contribuição no primeiro projeto desenvolvido na faculdade! Minha parte foi a criação da página de cursos.",
     tags: ["HTML", "CSS"],
-    link: "https://github.com/Bzats/Projeto-Interdisciplinar.git",
+    link: "https://github.com/Kendi9866/PROJETO_PI.git",
     year: "2023",
     image: "/images/projects/projeto-libras.png",
   },
