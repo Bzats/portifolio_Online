@@ -50,7 +50,7 @@ export const projects: Project[] = [
     title: "Go-Planner Mobile",
     description: "Planejador de viagens em sua versão mobile! Aonde participei na criação do Back-end do projeto!",
     tags: ["React Native", "Spring Boot 3", "MongoDB"],
-    link: "https://github.com/Bonde-do-tigrinho/Go-Planner-Mobile.git,",
+    link: "https://github.com/Bonde-do-tigrinho/Go-Planner-Mobile.git",
     year: "2025",
     image: "/images/projects/go-planner-mobile.png",
   },
